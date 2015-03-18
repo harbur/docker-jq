@@ -1,2 +1,2 @@
 # docker-jq
-Docker image with jq preinstalled
+Docker image with jq v1.4 preinstalled
