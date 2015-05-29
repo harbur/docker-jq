@@ -1,4 +1,4 @@
 FROM busybox:ubuntu-14.04
-ADD /bin/jq /bin/
-RUN chmod 744 /bin/jq
+ADD http://stedolan.github.io/jq/download/linux64/jq /bin/
+RUN chmod 755 /bin/jq
 ENTRYPOINT ["/bin/jq"]
